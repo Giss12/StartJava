@@ -1,5 +1,5 @@
 
-public class Variable{
+public class Variable {
  	public static void main(String[] args) {
 	byte threads = 16;
 	boolean proccessor = true;
