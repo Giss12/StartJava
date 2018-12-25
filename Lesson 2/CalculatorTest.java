@@ -11,9 +11,9 @@ import java.util.Scanner;
                 calculator.setInputExpression(scan.nextLine());
                 calculator.calculate();
 
-                do {
-                    System.out.println("Вы хотите продолжить?: ");
-                    answer = scan.nextLine();
+            do {
+                System.out.println("Вы хотите продолжить?: ");
+                  answer = scan.nextLine();
                 } while (!answer.equals("да") && !answer.equals("нет"));
                   
             } while(!answer.equals("нет"));
